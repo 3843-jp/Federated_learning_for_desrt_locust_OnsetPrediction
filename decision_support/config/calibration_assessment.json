@@ -1,0 +1,50 @@
+{
+  "brier_score": 0.27541518147655436,
+  "expected_calibration_error": 0.478,
+  "calibration_error_threshold": 0.1,
+  "monotonic_reliability": false,
+  "n_bins": 5,
+  "reliability_table": [
+    {
+      "bin": 0,
+      "n": 428,
+      "mean_predicted_score": 0.3585,
+      "observed_positive_rate": 0.0117,
+      "n_positive_in_bin": 5
+    },
+    {
+      "bin": 1,
+      "n": 428,
+      "mean_predicted_score": 0.4762,
+      "observed_positive_rate": 0.0327,
+      "n_positive_in_bin": 14
+    },
+    {
+      "bin": 2,
+      "n": 428,
+      "mean_predicted_score": 0.5314,
+      "observed_positive_rate": 0.0748,
+      "n_positive_in_bin": 32
+    },
+    {
+      "bin": 3,
+      "n": 428,
+      "mean_predicted_score": 0.5766,
+      "observed_positive_rate": 0.0631,
+      "n_positive_in_bin": 27
+    },
+    {
+      "bin": 4,
+      "n": 429,
+      "mean_predicted_score": 0.6433,
+      "observed_positive_rate": 0.014,
+      "n_positive_in_bin": 6
+    }
+  ],
+  "min_positives_in_any_bin": 5,
+  "sample_size_adequate_for_assessment": true,
+  "calibration_demonstrable_pooled_test_set": false,
+  "decision": "Display as SCORE (0-1), not a calibrated probability",
+  "why": "Model was trained with class-weighted BCE loss (pos_weight) throughout this project to handle severe class imbalance -- this deliberately shifts sigmoid outputs away from true base rates as a side effect of improving class separation, so poor calibration here is an expected consequence of a design choice made correctly for a different goal (discrimination, not calibration), not a bug.",
+  "per_client_note": "Per-client calibration is even less demonstrable than the pooled result above: Kenya has 36 test-period positives and Uganda has 17, both far below what would be needed for a per-client reliability curve with any bin resolution. The pooled result is the best-supported statement this data can make about calibration, and it applies (or fails to apply) to the whole system, not to any single client's number specifically."
+}

@@ -1,0 +1,11 @@
+country,test_candidates,test_positives,status,global_threshold,global_precision,global_recall,global_f1
+Algeria,0,0,INSUFFICIENT TEST DATA (n_pos=0),,,,
+Egypt,0,0,INSUFFICIENT TEST DATA (n_pos=0),,,,
+Ethiopia,0,0,INSUFFICIENT TEST DATA (n_pos=0),,,,
+Kenya,905,36,global threshold only -- country-specific threshold UNAVAILABLE (n_oof_pos=2 < 5),0.2,0.02145922746781116,0.1388888888888889,0.03717472118959108
+Mauritania,0,0,INSUFFICIENT TEST DATA (n_pos=0),,,,
+Somaliland,93,4,INSUFFICIENT TEST DATA (n_pos=4),,,,
+Sudan,0,0,INSUFFICIENT TEST DATA (n_pos=0),,,,
+Tunisia,0,0,INSUFFICIENT TEST DATA (n_pos=0),,,,
+Uganda,425,17,global threshold only -- country-specific threshold UNAVAILABLE (n_oof_pos=0 < 5),0.2,0.12162162162162163,0.5294117647058824,0.1978021978021978
+Yemen,16,1,INSUFFICIENT TEST DATA (n_pos=1),,,,

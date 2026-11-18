@@ -1,0 +1,31 @@
+{
+  "method": "Adaptive Aggregation Method A (positive-aware)",
+  "seed": 42,
+  "num_rounds": 15,
+  "local_epochs": 5,
+  "features_in_order": [
+    "PPT_T",
+    "TMAX_T",
+    "SOILMOISTURE_T",
+    "PPT_anomaly",
+    "TMAX_anomaly",
+    "SOILMOISTURE_anomaly",
+    "PPT_anomaly_missing",
+    "TMAX_anomaly_missing",
+    "SOILMOISTURE_anomaly_missing"
+  ],
+  "global_threshold_F1_optimized": 0.5,
+  "verification_against_phase7_8": {
+    "Kenya": {
+      "reproduced_roc_auc": 0.5389016749776243,
+      "reference": 0.539,
+      "diff": 9.83250223757226e-05
+    },
+    "Uganda": {
+      "reproduced_roc_auc": 0.7401960784313726,
+      "reference": 0.74,
+      "diff": 0.00019607843137259273
+    }
+  },
+  "source": "Phase 8, validated multi-seed; this artifact reproduces the seed=42 run for persistent deployment -- not a new experiment."
+}

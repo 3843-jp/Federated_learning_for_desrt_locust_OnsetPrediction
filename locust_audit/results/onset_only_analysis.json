@@ -1,0 +1,8 @@
+{
+  "onset_subset_n": 921,
+  "onset_subset_positive": 37,
+  "onset_base_rate": 0.04017372421281216,
+  "rf_full_features_pr_auc": 0.042968573093510126,
+  "rf_full_features_roc_auc": 0.47349272349272353,
+  "interpretation": "ROC-AUC at or near 0.5 = no better than random on the onset-only subset"
+}

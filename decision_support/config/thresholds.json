@@ -1,0 +1,37 @@
+{
+  "_comment": "Configurable decision-support thresholds; NOT biologically validated thresholds. These define risk tiers over the frozen model's raw onset SCORE (0-1), which calibration testing (calibration_assessment.json) found is not a calibrated probability. Edit these values to change risk-tier behavior -- never hardcode thresholds in the dashboard code.",
+  "score_display_mode": "score",
+  "score_display_mode_reason": "calibration_assessment.json: expected_calibration_error=0.478, non-monotonic reliability curve -- fails the pre-set 0.10 tolerance. Display as 'predicted onset score', not a percentage probability.",
+  "risk_thresholds": {
+    "low_max": 0.30,
+    "moderate_max": 0.60,
+    "_meaning": "score < low_max => LOW; low_max <= score <= moderate_max => MODERATE; score > moderate_max => HIGH"
+  },
+  "early_warning_messages": {
+    "LOW": "Low predicted onset risk; routine monitoring is recommended.",
+    "MODERATE": "Moderate likelihood of observed locust-report onset; increased monitoring is recommended.",
+    "HIGH": "Elevated likelihood of observed locust-report onset during the forecast period."
+  },
+  "recommendation_rules": {
+    "LOW": "Routine monitoring",
+    "MODERATE": "Increase surveillance and monitoring",
+    "HIGH": "Prioritize field surveillance and monitoring in the affected region"
+  },
+  "recommendation_engine_excludes": [
+    "pesticide application",
+    "chemical treatment",
+    "crop destruction",
+    "evacuation",
+    "emergency intervention"
+  ],
+  "terminology": {
+    "use": ["observed-report onset", "predicted onset score", "risk level",
+            "early warning", "environmental contributors", "data-quality indicators",
+            "surveillance recommendation", "early-warning framework",
+            "decision-support recommendation", "contributed to the model prediction"],
+    "avoid": ["72% probability", "confirmed outbreak", "guaranteed outbreak",
+              "guaranteed prediction", "biological outbreak prediction",
+              "causal environmental factor", "caused the outbreak",
+              "caused the locust outbreak"]
+  }
+}

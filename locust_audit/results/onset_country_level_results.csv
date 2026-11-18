@@ -1,0 +1,7 @@
+country,onset_candidates_test,onset_positives_test,onset_rate_pct,precision,recall,f1,pr_auc,roc_auc,metrics_status
+Kenya,905,36,3.978,0.033707865168539325,0.08333333333333333,0.048,0.031248854017930275,0.36430763329497506,computed
+Egypt,0,0,,,,,,,"INSUFFICIENT DATA (n_pos=0, need >= 5)"
+Yemen,16,1,6.25,,,,,,"INSUFFICIENT DATA (n_pos=1, need >= 5)"
+Ethiopia,0,0,,,,,,,"INSUFFICIENT DATA (n_pos=0, need >= 5)"
+Sudan,0,0,,,,,,,"INSUFFICIENT DATA (n_pos=0, need >= 5)"
+Mauritania,0,0,,,,,,,"INSUFFICIENT DATA (n_pos=0, need >= 5)"

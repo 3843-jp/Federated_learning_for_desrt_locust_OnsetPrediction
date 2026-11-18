@@ -1,0 +1,9 @@
+Approach,Test_PR_AUC,Test_ROC_AUC,F1,Robustness_ROC_AUC
+Phase 3: Raw env + history (RF),0.04,0.491,0.065,0.549
+Phase 4: Raw only (RF),0.037,0.484,0.075,0.554
+Phase 4: Anomaly only (RF),0.036,0.419,0.057,0.48
+Phase 4: Raw + anomaly (LR) [BEST OVERALL],0.059,0.57,0.088,0.555
+Phase 4: Raw+anomaly+history (LR),0.058,0.571,0.088,0.53
+Phase 5: 2-month window (RF),0.034,0.465,0.05,
+Phase 5: 3-month window (RF),0.034,0.461,0.074,
+Phase 5: Anomaly-window/change only (LR),0.033,0.425,0.071,

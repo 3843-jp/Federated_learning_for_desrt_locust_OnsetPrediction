@@ -1,0 +1,22 @@
+method,country,test_samples,test_positive,pr_auc,roc_auc,precision,recall,f1,low_confidence,status
+adaptive_A,Kenya,905,36,0.04039294538910339,0.5389016749776243,0.049800796812749,0.6944444444444444,0.09293680297397769,False,computed
+adaptive_A,Afghanistan,141,5,0.043950111665034694,0.5058823529411764,0.041237113402061855,0.8,0.0784313725490196,False,computed
+adaptive_A,Uganda,425,17,0.07157417069663438,0.7401960784313726,0.08542713567839195,1.0,0.1574074074074074,False,computed
+adaptive_A,Algeria,0,0,,,,,,,insufficient test data
+adaptive_A,Tunisia,0,0,,,,,,,insufficient test data
+adaptive_A,Libya,0,0,,,,,,,insufficient test data
+adaptive_A,Yemen,16,1,0.14285714285714285,0.6,0.0625,1.0,0.11764705882352941,True,computed
+adaptive_A,Sudan,0,0,,,,,,,insufficient test data
+adaptive_A,Egypt,0,0,,,,,,,insufficient test data
+adaptive_A,Chad,0,0,,,,,,,insufficient test data
+adaptive_A,Mauritania,0,0,,,,,,,insufficient test data
+adaptive_A,Saudi Arabia,29,1,0.08333333333333333,0.6071428571428572,0.034482758620689655,1.0,0.06666666666666667,True,computed
+adaptive_A,Mali,0,0,,,,,,,insufficient test data
+adaptive_A,Oman,25,1,0.04,0.0,0.04,1.0,0.07692307692307693,True,computed
+adaptive_A,Somaliland,93,4,0.031805147809276804,0.17134831460674158,0.03571428571428571,0.75,0.06818181818181818,True,computed
+adaptive_A,Ethiopia,0,0,,,,,,,insufficient test data
+adaptive_A,Guinea-Bissau,0,0,,,,,,,insufficient test data
+adaptive_A,Eritrea,0,0,,,,,,,insufficient test data
+adaptive_A,Guinea,0,0,,,,,,,insufficient test data
+adaptive_A,The Gambia,0,0,,,,,,,insufficient test data
+adaptive_A,Djibouti,26,1,0.041666666666666664,0.07999999999999996,0.038461538461538464,1.0,0.07407407407407407,True,computed

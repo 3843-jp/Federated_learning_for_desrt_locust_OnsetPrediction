@@ -1,0 +1,22 @@
+method,country,test_samples,test_positive,pr_auc,roc_auc,precision,recall,f1,threshold,status
+fedavg,Kenya,905,36,0.034840266091639746,0.4422388441375783,0.03496503496503497,0.1388888888888889,0.055865921787709494,0.5,computed
+fedavg,Afghanistan,141,5,0.04349914846253905,0.5073529411764706,0.023255813953488372,0.2,0.041666666666666664,0.5,computed
+fedavg,Uganda,425,17,0.0693968690906542,0.6963667820069204,0.058823529411764705,0.17647058823529413,0.08823529411764706,0.5,computed
+fedavg,Algeria,0,0,,,,,,,insufficient test data
+fedavg,Tunisia,0,0,,,,,,,insufficient test data
+fedavg,Libya,0,0,,,,,,,insufficient test data
+fedavg,Yemen,16,1,0.14285714285714285,0.6,0.1111111111111111,1.0,0.2,0.5,computed
+fedavg,Sudan,0,0,,,,,,,insufficient test data
+fedavg,Egypt,0,0,,,,,,,insufficient test data
+fedavg,Chad,0,0,,,,,,,insufficient test data
+fedavg,Mauritania,0,0,,,,,,,insufficient test data
+fedavg,Saudi Arabia,29,1,0.08333333333333333,0.6071428571428572,0.05555555555555555,1.0,0.10526315789473684,0.5,computed
+fedavg,Mali,0,0,,,,,,,insufficient test data
+fedavg,Oman,25,1,0.041666666666666664,0.04166666666666663,0.0,0.0,0.0,0.5,computed
+fedavg,Somaliland,93,4,0.33651026392961875,0.6910112359550562,0.061224489795918366,0.75,0.11320754716981132,0.5,computed
+fedavg,Ethiopia,0,0,,,,,,,insufficient test data
+fedavg,Guinea-Bissau,0,0,,,,,,,insufficient test data
+fedavg,Eritrea,0,0,,,,,,,insufficient test data
+fedavg,Guinea,0,0,,,,,,,insufficient test data
+fedavg,The Gambia,0,0,,,,,,,insufficient test data
+fedavg,Djibouti,26,1,0.038461538461538464,0.0,0.0,0.0,0.0,0.5,computed

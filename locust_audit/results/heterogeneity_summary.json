@@ -1,0 +1,22 @@
+{
+  "n_countries_evaluated": 24,
+  "dominant_variable_distribution": {
+    "NaN": 18,
+    "TMAX": 8,
+    "SOILMOISTURE": 6,
+    "PPT": 6,
+    "no clear signal": 4
+  },
+  "PPT_effect_range": [
+    -0.39135690540948925,
+    0.6853661275831087
+  ],
+  "TMAX_effect_range": [
+    -0.5960027393310265,
+    0.9238095238095239
+  ],
+  "SOILMOISTURE_effect_range": [
+    -0.3501453488372093,
+    0.6153846153846154
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "source_file": "results/phase7_weight_tables.csv",
+  "computed_by": "phase7_weighting.py",
+  "input_fields_used": [
+    "train_samples",
+    "train_positive"
+  ],
+  "input_fields_NOT_used": [
+    "val_samples",
+    "val_positive",
+    "test_samples",
+    "test_positive",
+    "any PR_AUC/ROC_AUC/F1 metric"
+  ],
+  "verified": "phase7_weighting.py reads only results/phase7_client_reliability.csv, whose own fields (train_samples, train_positive, train_negative, val_samples, val_positive) are computed from `train = df[df.split==train]` and `val = df[df.split==val]` -- test rows are never loaded in that script."
+}

@@ -1,0 +1,193 @@
+method,country,seed,test_positive,pr_auc,roc_auc,f1,precision,recall,low_confidence,status
+centralized,Kenya,,36,0.0324615858634078,0.4176575885436644,0.0438871473354232,0.0247349823321554,0.1944444444444444,False,computed
+centralized,Uganda,,17,0.39316353285528,0.93800461361015,0.2758620689655172,0.1616161616161616,0.9411764705882352,False,computed
+centralized,Afghanistan,,5,0.0490754192639502,0.5661764705882353,0.0930232558139534,0.0493827160493827,0.8,False,computed
+fedavg,Kenya,42.0,36,0.0348402660916397,0.4422388441375783,0.0558659217877094,0.0349650349650349,0.1388888888888889,False,computed
+fedavg,Afghanistan,42.0,5,0.043499148462539,0.5073529411764706,0.0416666666666666,0.0232558139534883,0.2,False,computed
+fedavg,Uganda,42.0,17,0.0693968690906542,0.6963667820069204,0.088235294117647,0.0588235294117647,0.1764705882352941,False,computed
+fedavg,Algeria,42.0,0,,,,,,,insufficient test data
+fedavg,Tunisia,42.0,0,,,,,,,insufficient test data
+fedavg,Libya,42.0,0,,,,,,,insufficient test data
+fedavg,Yemen,42.0,1,0.1428571428571428,0.6,0.2,0.1111111111111111,1.0,True,computed
+fedavg,Sudan,42.0,0,,,,,,,insufficient test data
+fedavg,Egypt,42.0,0,,,,,,,insufficient test data
+fedavg,Chad,42.0,0,,,,,,,insufficient test data
+fedavg,Mauritania,42.0,0,,,,,,,insufficient test data
+fedavg,Saudi Arabia,42.0,1,0.0833333333333333,0.6071428571428572,0.1052631578947368,0.0555555555555555,1.0,True,computed
+fedavg,Mali,42.0,0,,,,,,,insufficient test data
+fedavg,Oman,42.0,1,0.0416666666666666,0.0416666666666666,0.0,0.0,0.0,True,computed
+fedavg,Somaliland,42.0,4,0.3365102639296187,0.6910112359550562,0.1132075471698113,0.0612244897959183,0.75,True,computed
+fedavg,Ethiopia,42.0,0,,,,,,,insufficient test data
+fedavg,Guinea-Bissau,42.0,0,,,,,,,insufficient test data
+fedavg,Eritrea,42.0,0,,,,,,,insufficient test data
+fedavg,Guinea,42.0,0,,,,,,,insufficient test data
+fedavg,The Gambia,42.0,0,,,,,,,insufficient test data
+fedavg,Djibouti,42.0,1,0.0384615384615384,0.0,0.0,0.0,0.0,True,computed
+adaptive_A,Kenya,42.0,36,0.0403929453891033,0.5389016749776243,0.0929368029739776,0.049800796812749,0.6944444444444444,False,computed
+adaptive_A,Afghanistan,42.0,5,0.0439501116650346,0.5058823529411764,0.0784313725490196,0.0412371134020618,0.8,False,computed
+adaptive_A,Uganda,42.0,17,0.0715741706966343,0.7401960784313726,0.1574074074074074,0.0854271356783919,1.0,False,computed
+adaptive_A,Algeria,42.0,0,,,,,,,insufficient test data
+adaptive_A,Tunisia,42.0,0,,,,,,,insufficient test data
+adaptive_A,Libya,42.0,0,,,,,,,insufficient test data
+adaptive_A,Yemen,42.0,1,0.1428571428571428,0.6,0.1176470588235294,0.0625,1.0,True,computed
+adaptive_A,Sudan,42.0,0,,,,,,,insufficient test data
+adaptive_A,Egypt,42.0,0,,,,,,,insufficient test data
+adaptive_A,Chad,42.0,0,,,,,,,insufficient test data
+adaptive_A,Mauritania,42.0,0,,,,,,,insufficient test data
+adaptive_A,Saudi Arabia,42.0,1,0.0833333333333333,0.6071428571428572,0.0666666666666666,0.0344827586206896,1.0,True,computed
+adaptive_A,Mali,42.0,0,,,,,,,insufficient test data
+adaptive_A,Oman,42.0,1,0.04,0.0,0.0769230769230769,0.04,1.0,True,computed
+adaptive_A,Somaliland,42.0,4,0.0318051478092768,0.1713483146067415,0.0681818181818181,0.0357142857142857,0.75,True,computed
+adaptive_A,Ethiopia,42.0,0,,,,,,,insufficient test data
+adaptive_A,Guinea-Bissau,42.0,0,,,,,,,insufficient test data
+adaptive_A,Eritrea,42.0,0,,,,,,,insufficient test data
+adaptive_A,Guinea,42.0,0,,,,,,,insufficient test data
+adaptive_A,The Gambia,42.0,0,,,,,,,insufficient test data
+adaptive_A,Djibouti,42.0,1,0.0416666666666666,0.0799999999999999,0.074074074074074,0.0384615384615384,1.0,True,computed
+adaptive_B,Kenya,42.0,36,0.0552201102706145,0.613508502749009,0.0894660894660894,0.0471841704718417,0.8611111111111112,False,computed
+adaptive_B,Afghanistan,42.0,5,0.0495981938354819,0.5073529411764706,0.0714285714285714,0.0373831775700934,0.8,False,computed
+adaptive_B,Uganda,42.0,17,0.0498607965151123,0.6156286043829297,0.1209964412811387,0.0643939393939393,1.0,False,computed
+adaptive_B,Algeria,42.0,0,,,,,,,insufficient test data
+adaptive_B,Tunisia,42.0,0,,,,,,,insufficient test data
+adaptive_B,Libya,42.0,0,,,,,,,insufficient test data
+adaptive_B,Yemen,42.0,1,0.1111111111111111,0.4666666666666667,0.125,0.0666666666666666,1.0,True,computed
+adaptive_B,Sudan,42.0,0,,,,,,,insufficient test data
+adaptive_B,Egypt,42.0,0,,,,,,,insufficient test data
+adaptive_B,Chad,42.0,0,,,,,,,insufficient test data
+adaptive_B,Mauritania,42.0,0,,,,,,,insufficient test data
+adaptive_B,Saudi Arabia,42.0,1,0.1,0.6785714285714286,0.0666666666666666,0.0344827586206896,1.0,True,computed
+adaptive_B,Mali,42.0,0,,,,,,,insufficient test data
+adaptive_B,Oman,42.0,1,0.0416666666666666,0.0416666666666666,0.08,0.0416666666666666,1.0,True,computed
+adaptive_B,Somaliland,42.0,4,0.0763925361289641,0.3061797752808989,0.0697674418604651,0.0365853658536585,0.75,True,computed
+adaptive_B,Ethiopia,42.0,0,,,,,,,insufficient test data
+adaptive_B,Guinea-Bissau,42.0,0,,,,,,,insufficient test data
+adaptive_B,Eritrea,42.0,0,,,,,,,insufficient test data
+adaptive_B,Guinea,42.0,0,,,,,,,insufficient test data
+adaptive_B,The Gambia,42.0,0,,,,,,,insufficient test data
+adaptive_B,Djibouti,42.0,1,0.0588235294117647,0.36,0.074074074074074,0.0384615384615384,1.0,True,computed
+fedavg,Kenya,123.0,36,0.0349241138304235,0.4449558879938627,0.0558659217877094,0.0349650349650349,0.1388888888888889,False,computed
+fedavg,Afghanistan,123.0,5,0.0444232917047415,0.5132352941176471,0.0408163265306122,0.0227272727272727,0.2,False,computed
+fedavg,Uganda,123.0,17,0.0697341534258301,0.6862745098039216,0.0779220779220779,0.05,0.1764705882352941,False,computed
+fedavg,Algeria,123.0,0,,,,,,,insufficient test data
+fedavg,Tunisia,123.0,0,,,,,,,insufficient test data
+fedavg,Libya,123.0,0,,,,,,,insufficient test data
+fedavg,Yemen,123.0,1,0.1666666666666666,0.6666666666666667,0.2,0.1111111111111111,1.0,True,computed
+fedavg,Sudan,123.0,0,,,,,,,insufficient test data
+fedavg,Egypt,123.0,0,,,,,,,insufficient test data
+fedavg,Chad,123.0,0,,,,,,,insufficient test data
+fedavg,Mauritania,123.0,0,,,,,,,insufficient test data
+fedavg,Saudi Arabia,123.0,1,0.1,0.6785714285714286,0.1052631578947368,0.0555555555555555,1.0,True,computed
+fedavg,Mali,123.0,0,,,,,,,insufficient test data
+fedavg,Oman,123.0,1,0.0416666666666666,0.0416666666666666,0.0,0.0,0.0,True,computed
+fedavg,Somaliland,123.0,4,0.3251466275659824,0.6601123595505618,0.1034482758620689,0.0555555555555555,0.75,True,computed
+fedavg,Ethiopia,123.0,0,,,,,,,insufficient test data
+fedavg,Guinea-Bissau,123.0,0,,,,,,,insufficient test data
+fedavg,Eritrea,123.0,0,,,,,,,insufficient test data
+fedavg,Guinea,123.0,0,,,,,,,insufficient test data
+fedavg,The Gambia,123.0,0,,,,,,,insufficient test data
+fedavg,Djibouti,123.0,1,0.0384615384615384,0.0,0.0,0.0,0.0,True,computed
+adaptive_A,Kenya,123.0,36,0.0416475393847971,0.5529663725866256,0.0962566844919786,0.0514285714285714,0.75,False,computed
+adaptive_A,Afghanistan,123.0,5,0.0437065710507795,0.4985294117647059,0.0776699029126213,0.0408163265306122,0.8,False,computed
+adaptive_A,Uganda,123.0,17,0.0688200913979867,0.7276528258362168,0.1566820276497695,0.085,1.0,False,computed
+adaptive_A,Algeria,123.0,0,,,,,,,insufficient test data
+adaptive_A,Tunisia,123.0,0,,,,,,,insufficient test data
+adaptive_A,Libya,123.0,0,,,,,,,insufficient test data
+adaptive_A,Yemen,123.0,1,0.1428571428571428,0.6,0.125,0.0666666666666666,1.0,True,computed
+adaptive_A,Sudan,123.0,0,,,,,,,insufficient test data
+adaptive_A,Egypt,123.0,0,,,,,,,insufficient test data
+adaptive_A,Chad,123.0,0,,,,,,,insufficient test data
+adaptive_A,Mauritania,123.0,0,,,,,,,insufficient test data
+adaptive_A,Saudi Arabia,123.0,1,0.0909090909090909,0.6428571428571428,0.0666666666666666,0.0344827586206896,1.0,True,computed
+adaptive_A,Mali,123.0,0,,,,,,,insufficient test data
+adaptive_A,Oman,123.0,1,0.04,0.0,0.0769230769230769,0.04,1.0,True,computed
+adaptive_A,Somaliland,123.0,4,0.0317861831018395,0.1685393258426966,0.0689655172413793,0.036144578313253,0.75,True,computed
+adaptive_A,Ethiopia,123.0,0,,,,,,,insufficient test data
+adaptive_A,Guinea-Bissau,123.0,0,,,,,,,insufficient test data
+adaptive_A,Eritrea,123.0,0,,,,,,,insufficient test data
+adaptive_A,Guinea,123.0,0,,,,,,,insufficient test data
+adaptive_A,The Gambia,123.0,0,,,,,,,insufficient test data
+adaptive_A,Djibouti,123.0,1,0.0416666666666666,0.0799999999999999,0.074074074074074,0.0384615384615384,1.0,True,computed
+adaptive_B,Kenya,123.0,36,0.0582588339941747,0.6267101393683672,0.0921248142644873,0.0486656200941915,0.8611111111111112,False,computed
+adaptive_B,Afghanistan,123.0,5,0.0474254538770667,0.4941176470588235,0.055045871559633,0.0288461538461538,0.6,False,computed
+adaptive_B,Uganda,123.0,17,0.0486121302529994,0.6055363321799307,0.1198501872659176,0.064,0.9411764705882352,False,computed
+adaptive_B,Algeria,123.0,0,,,,,,,insufficient test data
+adaptive_B,Tunisia,123.0,0,,,,,,,insufficient test data
+adaptive_B,Libya,123.0,0,,,,,,,insufficient test data
+adaptive_B,Yemen,123.0,1,0.1111111111111111,0.4666666666666667,0.1538461538461538,0.0833333333333333,1.0,True,computed
+adaptive_B,Sudan,123.0,0,,,,,,,insufficient test data
+adaptive_B,Egypt,123.0,0,,,,,,,insufficient test data
+adaptive_B,Chad,123.0,0,,,,,,,insufficient test data
+adaptive_B,Mauritania,123.0,0,,,,,,,insufficient test data
+adaptive_B,Saudi Arabia,123.0,1,0.1,0.6785714285714286,0.0689655172413793,0.0357142857142857,1.0,True,computed
+adaptive_B,Mali,123.0,0,,,,,,,insufficient test data
+adaptive_B,Oman,123.0,1,0.0416666666666666,0.0416666666666666,0.08,0.0416666666666666,1.0,True,computed
+adaptive_B,Somaliland,123.0,4,0.1096156725771961,0.3089887640449438,0.0476190476190476,0.025,0.5,True,computed
+adaptive_B,Ethiopia,123.0,0,,,,,,,insufficient test data
+adaptive_B,Guinea-Bissau,123.0,0,,,,,,,insufficient test data
+adaptive_B,Eritrea,123.0,0,,,,,,,insufficient test data
+adaptive_B,Guinea,123.0,0,,,,,,,insufficient test data
+adaptive_B,The Gambia,123.0,0,,,,,,,insufficient test data
+adaptive_B,Djibouti,123.0,1,0.0588235294117647,0.36,0.074074074074074,0.0384615384615384,1.0,True,computed
+fedavg,Kenya,2024.0,36,0.034295168789544674,0.4396816263904872,0.05263157894736842,0.032467532467532464,0.1388888888888889,False,computed
+fedavg,Afghanistan,2024.0,5,0.04337981470424861,0.5058823529411764,0.0392156862745098,0.021739130434782608,0.2,False,computed
+fedavg,Uganda,2024.0,17,0.060560062624253765,0.6454728950403691,0.06593406593406594,0.04054054054054054,0.17647058823529413,False,computed
+fedavg,Algeria,2024.0,0,,,,,,,insufficient test data
+fedavg,Tunisia,2024.0,0,,,,,,,insufficient test data
+fedavg,Libya,2024.0,0,,,,,,,insufficient test data
+fedavg,Yemen,2024.0,1,0.2,0.7333333333333334,0.2,0.1111111111111111,1.0,True,computed
+fedavg,Sudan,2024.0,0,,,,,,,insufficient test data
+fedavg,Egypt,2024.0,0,,,,,,,insufficient test data
+fedavg,Chad,2024.0,0,,,,,,,insufficient test data
+fedavg,Mauritania,2024.0,0,,,,,,,insufficient test data
+fedavg,Saudi Arabia,2024.0,1,0.1,0.6785714285714286,0.1111111111111111,0.058823529411764705,1.0,True,computed
+fedavg,Mali,2024.0,0,,,,,,,insufficient test data
+fedavg,Oman,2024.0,1,0.041666666666666664,0.04166666666666663,0.0,0.0,0.0,True,computed
+fedavg,Somaliland,2024.0,4,0.28158602150537637,0.648876404494382,0.10344827586206896,0.05555555555555555,0.75,True,computed
+fedavg,Ethiopia,2024.0,0,,,,,,,insufficient test data
+fedavg,Guinea-Bissau,2024.0,0,,,,,,,insufficient test data
+fedavg,Eritrea,2024.0,0,,,,,,,insufficient test data
+fedavg,Guinea,2024.0,0,,,,,,,insufficient test data
+fedavg,The Gambia,2024.0,0,,,,,,,insufficient test data
+fedavg,Djibouti,2024.0,1,0.038461538461538464,0.0,0.0,0.0,0.0,True,computed
+adaptive_A,Kenya,2024.0,36,0.04135362360153617,0.550185398286664,0.09540636042402827,0.0509433962264151,0.75,False,computed
+adaptive_A,Afghanistan,2024.0,5,0.04340761987302505,0.4897058823529412,0.07766990291262135,0.04081632653061224,0.8,False,computed
+adaptive_A,Uganda,2024.0,17,0.0651062072819096,0.7091983852364475,0.1504424778761062,0.08133971291866028,1.0,False,computed
+adaptive_A,Algeria,2024.0,0,,,,,,,insufficient test data
+adaptive_A,Tunisia,2024.0,0,,,,,,,insufficient test data
+adaptive_A,Libya,2024.0,0,,,,,,,insufficient test data
+adaptive_A,Yemen,2024.0,1,0.125,0.5333333333333333,0.125,0.06666666666666667,1.0,True,computed
+adaptive_A,Sudan,2024.0,0,,,,,,,insufficient test data
+adaptive_A,Egypt,2024.0,0,,,,,,,insufficient test data
+adaptive_A,Chad,2024.0,0,,,,,,,insufficient test data
+adaptive_A,Mauritania,2024.0,0,,,,,,,insufficient test data
+adaptive_A,Saudi Arabia,2024.0,1,0.09090909090909091,0.6428571428571428,0.06666666666666667,0.034482758620689655,1.0,True,computed
+adaptive_A,Mali,2024.0,0,,,,,,,insufficient test data
+adaptive_A,Oman,2024.0,1,0.041666666666666664,0.04166666666666663,0.07692307692307693,0.04,1.0,True,computed
+adaptive_A,Somaliland,2024.0,4,0.03057743531202435,0.1348314606741573,0.06896551724137931,0.03614457831325301,0.75,True,computed
+adaptive_A,Ethiopia,2024.0,0,,,,,,,insufficient test data
+adaptive_A,Guinea-Bissau,2024.0,0,,,,,,,insufficient test data
+adaptive_A,Eritrea,2024.0,0,,,,,,,insufficient test data
+adaptive_A,Guinea,2024.0,0,,,,,,,insufficient test data
+adaptive_A,The Gambia,2024.0,0,,,,,,,insufficient test data
+adaptive_A,Djibouti,2024.0,1,0.041666666666666664,0.07999999999999996,0.07407407407407407,0.038461538461538464,1.0,True,computed
+adaptive_B,Kenya,2024.0,36,0.05752322310076034,0.6226505561948599,0.09185185185185185,0.048513302034428794,0.8611111111111112,False,computed
+adaptive_B,Afghanistan,2024.0,5,0.04891659340558949,0.49852941176470594,0.05504587155963303,0.028846153846153848,0.6,False,computed
+adaptive_B,Uganda,2024.0,17,0.04676343952357829,0.5895328719723183,0.1198501872659176,0.064,0.9411764705882353,False,computed
+adaptive_B,Algeria,2024.0,0,,,,,,,insufficient test data
+adaptive_B,Tunisia,2024.0,0,,,,,,,insufficient test data
+adaptive_B,Libya,2024.0,0,,,,,,,insufficient test data
+adaptive_B,Yemen,2024.0,1,0.1111111111111111,0.4666666666666667,0.15384615384615385,0.08333333333333333,1.0,True,computed
+adaptive_B,Sudan,2024.0,0,,,,,,,insufficient test data
+adaptive_B,Egypt,2024.0,0,,,,,,,insufficient test data
+adaptive_B,Chad,2024.0,0,,,,,,,insufficient test data
+adaptive_B,Mauritania,2024.0,0,,,,,,,insufficient test data
+adaptive_B,Saudi Arabia,2024.0,1,0.1,0.6785714285714286,0.06896551724137931,0.03571428571428571,1.0,True,computed
+adaptive_B,Mali,2024.0,0,,,,,,,insufficient test data
+adaptive_B,Oman,2024.0,1,0.041666666666666664,0.04166666666666663,0.08,0.041666666666666664,1.0,True,computed
+adaptive_B,Somaliland,2024.0,4,0.27628233924386275,0.3146067415730337,0.047619047619047616,0.025,0.5,True,computed
+adaptive_B,Ethiopia,2024.0,0,,,,,,,insufficient test data
+adaptive_B,Guinea-Bissau,2024.0,0,,,,,,,insufficient test data
+adaptive_B,Eritrea,2024.0,0,,,,,,,insufficient test data
+adaptive_B,Guinea,2024.0,0,,,,,,,insufficient test data
+adaptive_B,The Gambia,2024.0,0,,,,,,,insufficient test data
+adaptive_B,Djibouti,2024.0,1,0.0625,0.4,0.07407407407407407,0.038461538461538464,1.0,True,computed

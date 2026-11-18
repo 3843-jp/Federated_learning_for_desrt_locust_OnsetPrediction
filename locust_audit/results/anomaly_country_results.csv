@@ -1,0 +1,10 @@
+country,n_candidates,n_positive,status,precision,recall,f1,pr_auc,roc_auc
+Algeria,0,0,INSUFFICIENT DATA (n_pos=0),,,,,
+Egypt,0,0,INSUFFICIENT DATA (n_pos=0),,,,,
+Ethiopia,0,0,INSUFFICIENT DATA (n_pos=0),,,,,
+Kenya,905,36,computed,0.022222222222222223,0.05555555555555555,0.031746031746031744,0.034373998421157584,0.4421269658611431
+Mauritania,0,0,INSUFFICIENT DATA (n_pos=0),,,,,
+Sudan,0,0,INSUFFICIENT DATA (n_pos=0),,,,,
+Tunisia,0,0,INSUFFICIENT DATA (n_pos=0),,,,,
+Uganda,425,17,computed,0.0,0.0,0.0,0.07625643336211008,0.7423587081891581
+Yemen,16,1,INSUFFICIENT DATA (n_pos=1),,,,,

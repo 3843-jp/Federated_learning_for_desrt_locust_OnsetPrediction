@@ -1,0 +1,38 @@
+{
+  "fedavg": {
+    "max_weight": 0.31373866308364123,
+    "max_weight_country": "Kenya",
+    "min_weight": 0.005758433706031959,
+    "min_weight_country": "Eritrea",
+    "top3_share": 0.5309995681174721,
+    "entropy": 2.425911699221428,
+    "normalized_entropy": 0.7968118970525412,
+    "n_zero_weight_clients": 0,
+    "zero_weight_clients": []
+  },
+  "adaptive_A": {
+    "max_weight": 0.09965629889694574,
+    "max_weight_country": "Kenya",
+    "min_weight": 0.017322465721476173,
+    "min_weight_country": "Afghanistan",
+    "top3_share": 0.2788590736464084,
+    "entropy": 2.90595923582,
+    "normalized_entropy": 0.9544877054652173,
+    "n_zero_weight_clients": 0,
+    "zero_weight_clients": []
+  },
+  "adaptive_B": {
+    "max_weight": 0.11340880076031129,
+    "max_weight_country": "Algeria",
+    "min_weight": 0.0,
+    "min_weight_country": "Afghanistan",
+    "top3_share": 0.3035456636972087,
+    "entropy": 2.7958126879719902,
+    "normalized_entropy": 0.9183091092810575,
+    "n_zero_weight_clients": 2,
+    "zero_weight_clients": [
+      "Afghanistan",
+      "Uganda"
+    ]
+  }
+}

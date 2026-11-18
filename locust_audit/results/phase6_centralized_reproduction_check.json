@@ -1,0 +1,19 @@
+{
+  "phase6_reproduction": {
+    "n": 2141,
+    "positives": 84,
+    "precision": 0.04782146652497343,
+    "recall": 0.5357142857142857,
+    "f1": 0.08780487804878048,
+    "pr_auc": 0.058397310102088464,
+    "roc_auc": 0.5692582818251267,
+    "threshold": 0.5
+  },
+  "phase4_reference_LR_raw_plus_anomaly": {
+    "precision": 0.048,
+    "recall": 0.536,
+    "f1": 0.088,
+    "pr_auc": 0.059,
+    "roc_auc": 0.57
+  }
+}

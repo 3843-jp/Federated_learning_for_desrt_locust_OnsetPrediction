@@ -1,0 +1,72 @@
+{
+  "steps": [
+    {
+      "step": "1_load_and_clean_country_names",
+      "raw_rows": 79528,
+      "unique_countries_before_strip": 42,
+      "unique_countries_after_strip": 42
+    },
+    {
+      "step": "2_tmax_outlier_check",
+      "rows_flagged": 1,
+      "flagged_rows": "[{\"REGION\": \"Abu Dhabi Emirate\", \"COUNTRYNAME\": \"United Arab Emirates\", \"STARTYEAR\": 1989, \"STARTMONTH\": 5, \"PPT\": 0.1, \"TMAX\": 177.0, \"SOILMOISTURE\": 0.0, \"LOCUSTPRESENT\": \"no\"}]"
+    },
+    {
+      "step": "2_tmax_outlier_removed",
+      "rows_after": 79527
+    },
+    {
+      "step": "3_dedup_diagnostics",
+      "raw_rows_pre_dedup": 79527,
+      "unique_keys": 59536,
+      "positive_keys": 2744,
+      "negative_keys": 56793,
+      "keys_with_duplicate_positive_observations": 1820
+    },
+    {
+      "step": "4_label_contradictions_found",
+      "n_contradiction_keys": 1,
+      "contradiction_keys": "[('United Arab Emirates', 'Abu Dhabi Emirate', 2008, 2)]"
+    },
+    {
+      "step": "4_environmental_consistency_check",
+      "keys_with_inconsistent_environmental_values": 1649,
+      "median_within_key_range_PPT": 0.0,
+      "median_within_key_range_TMAX": 0.0,
+      "max_within_key_range_PPT": 556.4000000000001,
+      "max_within_key_range_TMAX": 23.4,
+      "note": "Real, not floating-point noise \u2014 region is coarser than the environmental grid. Resolved using per-key MEAN, not first-row, specifically because of this finding."
+    },
+    {
+      "step": "4_resolved_same_month_dataset",
+      "rows": 59536,
+      "positive_rows": 2744,
+      "negative_rows": 56792
+    },
+    {
+      "step": "5_target_semantics_documented",
+      "column_name": "LOCUSTPRESENT_RESOLVED",
+      "meaning_of_1": "swarm reported in this country/region/month",
+      "meaning_of_0": "CANDIDATE NEGATIVE / non-reported region-month (NOT confirmed ecological absence \u2014 see Phase 1 forensic audit Section 3/4 for why)"
+    },
+    {
+      "step": "6_temporal_index_built",
+      "rows": 59536
+    },
+    {
+      "step": "7_8_t_plus_1_construction",
+      "total_candidate_transitions": 59536,
+      "missing_month_transitions_skipped": 1549,
+      "pct_transitions_lost_to_gaps": 2.6,
+      "valid_t_plus_1_samples": 57987
+    },
+    {
+      "step": "9_reduction_table",
+      "table": "[{\"stage\": \"raw_rows\", \"rows\": 79528}, {\"stage\": \"after_country_name_cleaning\", \"rows\": 79528}, {\"stage\": \"after_outlier_removal\", \"rows\": 79527}, {\"stage\": \"after_dedup_and_contradiction_resolution (same-month grain)\", \"rows\": 59536}, {\"stage\": \"valid_T_to_T+1_samples\", \"rows\": 57987}]"
+    },
+    {
+      "step": "10_client_temporal_statistics_written",
+      "n_countries": 42
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "total_rows": 56787,
+  "PPT_rows_insufficient_history": 12198,
+  "PPT_rows_zero_variance_history": 4318,
+  "PPT_pct_rows_with_valid_zscore": 70.92,
+  "TMAX_rows_insufficient_history": 12198,
+  "TMAX_rows_zero_variance_history": 1,
+  "TMAX_pct_rows_with_valid_zscore": 78.52,
+  "SOILMOISTURE_rows_insufficient_history": 12198,
+  "SOILMOISTURE_rows_zero_variance_history": 5028,
+  "SOILMOISTURE_pct_rows_with_valid_zscore": 69.67
+}

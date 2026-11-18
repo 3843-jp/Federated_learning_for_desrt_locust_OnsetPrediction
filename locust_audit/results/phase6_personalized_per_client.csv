@@ -1,0 +1,22 @@
+method,country,train_samples,train_positive,test_samples,test_positive,status,fine_tuned,threshold,pr_auc,roc_auc,precision,recall,f1,note
+personalized_fl,Kenya,13076,2,905,36,computed,True,0.5,0.03576417051284116,0.4610343945786983,0.0196078431372549,0.05555555555555555,0.028985507246376812,
+personalized_fl,Afghanistan,1740,0,141,5,computed,False,0.5,0.04349914846253905,0.5073529411764706,0.023255813953488372,0.2,0.041666666666666664,zero local training positives -- fine-tuning skipped (would only push toward predicting negative); personalized model = FedAvg global model as-is
+personalized_fl,Uganda,5916,0,425,17,computed,False,0.5,0.0693968690906542,0.6963667820069204,0.058823529411764705,0.17647058823529413,0.08823529411764706,zero local training positives -- fine-tuning skipped (would only push toward predicting negative); personalized model = FedAvg global model as-is
+personalized_fl,Algeria,2044,47,0,0,insufficient test data,,,,,,,,
+personalized_fl,Tunisia,847,21,0,0,insufficient test data,,,,,,,,
+personalized_fl,Libya,2179,20,0,0,insufficient test data,,,,,,,,
+personalized_fl,Yemen,1715,18,16,1,computed,True,0.5,0.07692307692307693,0.19999999999999996,0.0,0.0,0.0,
+personalized_fl,Sudan,522,17,0,0,insufficient test data,,,,,,,,
+personalized_fl,Egypt,3137,15,0,0,insufficient test data,,,,,,,,
+personalized_fl,Chad,963,14,0,0,insufficient test data,,,,,,,,
+personalized_fl,Mauritania,306,12,0,0,insufficient test data,,,,,,,,
+personalized_fl,Saudi Arabia,626,11,29,1,computed,True,0.5,0.058823529411764705,0.4285714285714286,0.0,0.0,0.0,
+personalized_fl,Mali,315,9,0,0,insufficient test data,,,,,,,,
+personalized_fl,Oman,1388,9,25,1,computed,True,0.5,0.3333333333333333,0.9166666666666666,0.0,0.0,0.0,
+personalized_fl,Somaliland,3139,9,93,4,computed,True,0.5,0.13640719445673005,0.6320224719101124,0.0625,0.25,0.1,
+personalized_fl,Ethiopia,1381,8,0,0,insufficient test data,,,,,,,,
+personalized_fl,Guinea-Bissau,837,7,0,0,insufficient test data,,,,,,,,
+personalized_fl,Eritrea,240,6,0,0,insufficient test data,,,,,,,,
+personalized_fl,Guinea,267,6,0,0,insufficient test data,,,,,,,,
+personalized_fl,The Gambia,245,6,0,0,insufficient test data,,,,,,,,
+personalized_fl,Djibouti,795,5,26,1,computed,True,0.5,0.09090909090909091,0.6,0.08333333333333333,1.0,0.15384615384615385,

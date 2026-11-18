@@ -1,0 +1,68 @@
+{
+  "total_onset_events_all_time": 38,
+  "regions_affected": [
+    "Baringo",
+    "Bungoma",
+    "Busia",
+    "Elgeyo-Marakwet",
+    "Embu County",
+    "Garissa County",
+    "Isiolo County",
+    "Kajiado County",
+    "Kakamega",
+    "Kericho",
+    "Kiambu County",
+    "Kirinyaga County",
+    "Kisumu",
+    "Kitui",
+    "Laikipia",
+    "Lamu",
+    "Machakos",
+    "Makueni",
+    "Mandera",
+    "Marsabit",
+    "Meru",
+    "Murang`a",
+    "Nairobi",
+    "Nakuru",
+    "Nandi",
+    "Narok",
+    "Nyandarua",
+    "Nyeri",
+    "Samburu",
+    "Taita Taveta",
+    "Tana River",
+    "Tharaka-Nithi",
+    "Trans Nzoia",
+    "Turkana",
+    "Uasin Gishu",
+    "Vihiga",
+    "Wajir",
+    "West Pokot"
+  ],
+  "n_regions_affected": 38,
+  "months_of_onset": [
+    "2007-11",
+    "2020-01",
+    "2020-02",
+    "2020-03",
+    "2020-04",
+    "2020-11"
+  ],
+  "env_conditions_before_onset": {
+    "PPT_T_mean": 101.63684210526317,
+    "PPT_T_median": 98.65,
+    "TMAX_T_mean": 29.948421052631577,
+    "SOILMOISTURE_T_mean": 63.96315789473685
+  },
+  "env_conditions_all_kenya_onset_candidates": {
+    "PPT_T_mean": 76.07355019415621,
+    "PPT_T_median": 52.7,
+    "TMAX_T_mean": 29.276207906295753,
+    "SOILMOISTURE_T_mean": 38.36960341205679
+  },
+  "lagged_history_among_kenya_onset_positives": {
+    "pct_with_T_minus_1_present": 0.0,
+    "pct_with_T_minus_2_present": 0.0
+  }
+}

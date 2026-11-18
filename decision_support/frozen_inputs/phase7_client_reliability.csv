@@ -1,0 +1,22 @@
+country,train_samples,train_positive,train_negative,positive_rate_pct,val_samples,val_positive
+Algeria,2044,47,1997,2.2994,0,0
+Tunisia,847,21,826,2.4793,0,0
+Libya,2179,20,2159,0.9179,0,0
+Yemen,1715,18,1697,1.0496,48,0
+Sudan,522,17,505,3.2567,0,0
+Egypt,3137,15,3122,0.4782,0,0
+Chad,963,14,949,1.4538,0,0
+Mauritania,306,12,294,3.9216,0,0
+Saudi Arabia,626,11,615,1.7572,48,0
+Oman,1388,9,1379,0.6484,48,0
+Somaliland,3139,9,3130,0.2867,192,0
+Mali,315,9,306,2.8571,0,0
+Ethiopia,1381,8,1373,0.5793,4,1
+Guinea-Bissau,837,7,830,0.8363,0,0
+Eritrea,240,6,234,2.5,0,0
+The Gambia,245,6,239,2.449,0,0
+Guinea,267,6,261,2.2472,0,0
+Djibouti,795,5,790,0.6289,48,0
+Kenya,13076,2,13074,0.0153,1728,0
+Afghanistan,1740,0,1740,0.0,240,0
+Uganda,5916,0,5916,0.0,816,0

@@ -1,0 +1,38 @@
+{
+  "category_a": [
+    "Kenya",
+    "Afghanistan",
+    "Uganda"
+  ],
+  "category_b": [
+    "Algeria",
+    "Tunisia",
+    "Libya",
+    "Yemen",
+    "Sudan",
+    "Egypt",
+    "Chad",
+    "Mauritania",
+    "Saudi Arabia",
+    "Mali",
+    "Oman",
+    "Somaliland",
+    "Ethiopia",
+    "Guinea-Bissau",
+    "Eritrea",
+    "Guinea",
+    "The Gambia",
+    "Djibouti"
+  ],
+  "frozen_features": [
+    "PPT_T",
+    "TMAX_T",
+    "SOILMOISTURE_T",
+    "PPT_anomaly",
+    "TMAX_anomaly",
+    "SOILMOISTURE_anomaly",
+    "PPT_anomaly_missing",
+    "TMAX_anomaly_missing",
+    "SOILMOISTURE_anomaly_missing"
+  ]
+}

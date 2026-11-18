@@ -1,0 +1,22 @@
+method,country,train_samples,test_samples,test_positive,pr_auc,roc_auc,precision,recall,f1,status
+centralized,Kenya,13076,905,36,0.032461585863407874,0.41765758854366447,0.024734982332155476,0.19444444444444445,0.0438871473354232,computed
+centralized,Afghanistan,1740,141,5,0.049075419263950294,0.5661764705882353,0.04938271604938271,0.8,0.09302325581395349,computed
+centralized,Uganda,5916,425,17,0.39316353285528005,0.9380046136101499,0.16161616161616163,0.9411764705882353,0.27586206896551724,computed
+centralized,Algeria,2044,0,0,,,,,,insufficient test data
+centralized,Tunisia,847,0,0,,,,,,insufficient test data
+centralized,Libya,2179,0,0,,,,,,insufficient test data
+centralized,Yemen,1715,16,1,0.07142857142857142,0.1333333333333333,0.0,0.0,0.0,computed
+centralized,Sudan,522,0,0,,,,,,insufficient test data
+centralized,Egypt,3137,0,0,,,,,,insufficient test data
+centralized,Chad,963,0,0,,,,,,insufficient test data
+centralized,Mauritania,306,0,0,,,,,,insufficient test data
+centralized,Saudi Arabia,626,29,1,0.07692307692307693,0.5714285714285714,0.03571428571428571,1.0,0.06896551724137931,computed
+centralized,Mali,315,0,0,,,,,,insufficient test data
+centralized,Oman,1388,25,1,1.0,1.0,0.041666666666666664,1.0,0.08,computed
+centralized,Somaliland,3139,93,4,0.04066026384368883,0.297752808988764,0.015384615384615385,0.25,0.028985507246376812,computed
+centralized,Ethiopia,1381,0,0,,,,,,insufficient test data
+centralized,Guinea-Bissau,837,0,0,,,,,,insufficient test data
+centralized,Eritrea,240,0,0,,,,,,insufficient test data
+centralized,Guinea,267,0,0,,,,,,insufficient test data
+centralized,The Gambia,245,0,0,,,,,,insufficient test data
+centralized,Djibouti,795,26,1,0.14285714285714285,0.76,0.038461538461538464,1.0,0.07407407407407407,computed

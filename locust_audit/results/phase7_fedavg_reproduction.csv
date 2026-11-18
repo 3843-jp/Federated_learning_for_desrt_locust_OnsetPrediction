@@ -1,0 +1,22 @@
+method,country,test_samples,test_positive,pr_auc,roc_auc,precision,recall,f1,low_confidence,status
+fedavg_vanilla_repro,Kenya,905,36,0.034840266091639746,0.4422388441375783,0.03496503496503497,0.1388888888888889,0.055865921787709494,False,computed
+fedavg_vanilla_repro,Afghanistan,141,5,0.04349914846253905,0.5073529411764706,0.023255813953488372,0.2,0.041666666666666664,False,computed
+fedavg_vanilla_repro,Uganda,425,17,0.0693968690906542,0.6963667820069204,0.058823529411764705,0.17647058823529413,0.08823529411764706,False,computed
+fedavg_vanilla_repro,Algeria,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,Tunisia,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,Libya,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,Yemen,16,1,0.14285714285714285,0.6,0.1111111111111111,1.0,0.2,True,computed
+fedavg_vanilla_repro,Sudan,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,Egypt,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,Chad,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,Mauritania,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,Saudi Arabia,29,1,0.08333333333333333,0.6071428571428572,0.05555555555555555,1.0,0.10526315789473684,True,computed
+fedavg_vanilla_repro,Mali,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,Oman,25,1,0.041666666666666664,0.04166666666666663,0.0,0.0,0.0,True,computed
+fedavg_vanilla_repro,Somaliland,93,4,0.33651026392961875,0.6910112359550562,0.061224489795918366,0.75,0.11320754716981132,True,computed
+fedavg_vanilla_repro,Ethiopia,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,Guinea-Bissau,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,Eritrea,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,Guinea,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,The Gambia,0,0,,,,,,,insufficient test data
+fedavg_vanilla_repro,Djibouti,26,1,0.038461538461538464,0.0,0.0,0.0,0.0,True,computed

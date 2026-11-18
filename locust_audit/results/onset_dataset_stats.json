@@ -1,0 +1,7 @@
+{
+  "total_onset_candidates": 56787,
+  "positive_onset_events": 359,
+  "negative_candidates": 56428,
+  "positive_rate_pct": 0.6322,
+  "distinct_regions_with_onset_event": 357
+}

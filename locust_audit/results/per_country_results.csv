@@ -1,0 +1,7 @@
+country,n,positive_count,precision,recall,f1,pr_auc,roc_auc,note
+Kenya,976,107,1.0,0.6635514018691588,0.797752808988764,0.7439110310969267,0.8212146306314057,
+Egypt,1,1,1.0,1.0,1.0,,,
+Yemen,55,40,1.0,0.975,0.9873417721518988,0.993867924528302,0.9783333333333333,
+Ethiopia,45,45,1.0,1.0,1.0,,,
+Sudan,8,8,1.0,1.0,1.0,,,
+Mauritania,0,0,,,,,,no test-period rows for this client

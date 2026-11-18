@@ -1,0 +1,12 @@
+# Exact packages imported across decision_support/ and locust_audit/,
+# versions pinned to what was verified working in this project's
+# development/test environment.
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+torch>=2.0
+flwr[simulation]>=1.30
+shap>=0.44
+streamlit>=1.30
+pytest>=7.4

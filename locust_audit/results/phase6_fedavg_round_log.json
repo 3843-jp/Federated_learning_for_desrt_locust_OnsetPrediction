@@ -1,0 +1,2087 @@
+{
+  "loss_distributed": [
+    [
+      1,
+      0.5713621906839993
+    ],
+    [
+      2,
+      0.5570846855711202
+    ],
+    [
+      3,
+      0.5450231337768685
+    ],
+    [
+      4,
+      0.5335872614309045
+    ],
+    [
+      5,
+      0.5229006322234206
+    ],
+    [
+      6,
+      0.5128655477724009
+    ],
+    [
+      7,
+      0.5034508682493171
+    ],
+    [
+      8,
+      0.49479274616786645
+    ],
+    [
+      9,
+      0.48661376537179596
+    ],
+    [
+      10,
+      0.47893848476955675
+    ],
+    [
+      11,
+      0.47191430526081707
+    ],
+    [
+      12,
+      0.4653594950554129
+    ],
+    [
+      13,
+      0.45921820446407674
+    ],
+    [
+      14,
+      0.45349327843947146
+    ],
+    [
+      15,
+      0.4480918905170361
+    ]
+  ],
+  "per_round_log": [
+    {
+      "round": 1,
+      "clients": [
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.314336895942688,
+          "train_positives": 11
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.4358949363231659,
+          "train_positives": 0
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 1.0084545612335205,
+          "train_positives": 9
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.1805733442306519,
+          "train_positives": 9
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1846882104873657,
+          "train_positives": 5
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.3071767091751099,
+          "train_positives": 12
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 1.0386680364608765,
+          "train_positives": 21
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.818366527557373,
+          "train_positives": 2
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.2887643575668335,
+          "train_positives": 9
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.9455404877662659,
+          "train_positives": 6
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.3299769163131714,
+          "train_positives": 17
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.3359531164169312,
+          "train_positives": 15
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.2786906957626343,
+          "train_positives": 20
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 0.9747626781463623,
+          "train_positives": 6
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.1929024457931519,
+          "train_positives": 47
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 1.2685325145721436,
+          "train_positives": 7
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.2360092401504517,
+          "train_positives": 8
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.31020987033843994,
+          "train_positives": 0
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.1825823783874512,
+          "train_positives": 6
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.2997846603393555,
+          "train_positives": 18
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.292327642440796,
+          "train_positives": 14
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 2,
+      "clients": [
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2164579629898071,
+          "train_positives": 12
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.3368757963180542,
+          "train_positives": 11
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.270281195640564,
+          "train_positives": 17
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.3149302005767822,
+          "train_positives": 18
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.31353965401649475,
+          "train_positives": 0
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.2002105712890625,
+          "train_positives": 20
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.7820283770561218,
+          "train_positives": 2
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.2761164903640747,
+          "train_positives": 14
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.2391698360443115,
+          "train_positives": 9
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.048460602760315,
+          "train_positives": 47
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.216854214668274,
+          "train_positives": 8
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.8227706551551819,
+          "train_positives": 9
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1366426944732666,
+          "train_positives": 5
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.4035179913043976,
+          "train_positives": 0
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.7206844687461853,
+          "train_positives": 6
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 0.8103752732276917,
+          "train_positives": 6
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.1688941717147827,
+          "train_positives": 9
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 1.2109037637710571,
+          "train_positives": 7
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.3292648792266846,
+          "train_positives": 15
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.1973122358322144,
+          "train_positives": 6
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.7386637330055237,
+          "train_positives": 21
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 3,
+      "clients": [
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.1823362112045288,
+          "train_positives": 20
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.2341907024383545,
+          "train_positives": 9
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.135014533996582,
+          "train_positives": 5
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.1597309112548828,
+          "train_positives": 9
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.7559146881103516,
+          "train_positives": 2
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2170662879943848,
+          "train_positives": 12
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.323993444442749,
+          "train_positives": 18
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.673056423664093,
+          "train_positives": 6
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.3178800344467163,
+          "train_positives": 0
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.0319910049438477,
+          "train_positives": 47
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.2888920307159424,
+          "train_positives": 14
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 0.7801874876022339,
+          "train_positives": 6
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.3480528593063354,
+          "train_positives": 11
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.206939458847046,
+          "train_positives": 6
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 1.3196299076080322,
+          "train_positives": 7
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.3263607025146484,
+          "train_positives": 15
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.6645890474319458,
+          "train_positives": 21
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.2081849575042725,
+          "train_positives": 8
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.7729935646057129,
+          "train_positives": 9
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.2685712575912476,
+          "train_positives": 17
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.3910151422023773,
+          "train_positives": 0
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 4,
+      "clients": [
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.212800145149231,
+          "train_positives": 8
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.332554817199707,
+          "train_positives": 18
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.1803239583969116,
+          "train_positives": 20
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2191150188446045,
+          "train_positives": 12
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 0.7939608693122864,
+          "train_positives": 6
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.7362962365150452,
+          "train_positives": 2
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.6693894863128662,
+          "train_positives": 6
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.2441890239715576,
+          "train_positives": 9
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.3231256008148193,
+          "train_positives": 15
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.3561891317367554,
+          "train_positives": 11
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.2067067623138428,
+          "train_positives": 6
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.1527658700942993,
+          "train_positives": 9
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.144258737564087,
+          "train_positives": 5
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.2717485427856445,
+          "train_positives": 17
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.0563808679580688,
+          "train_positives": 47
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.6716099381446838,
+          "train_positives": 21
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.31630000472068787,
+          "train_positives": 0
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.2894171476364136,
+          "train_positives": 14
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.3766078054904938,
+          "train_positives": 0
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 1.488857626914978,
+          "train_positives": 7
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.7609124779701233,
+          "train_positives": 9
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 5,
+      "clients": [
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.2751595973968506,
+          "train_positives": 17
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.6666610836982727,
+          "train_positives": 6
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.221398949623108,
+          "train_positives": 12
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.1473551988601685,
+          "train_positives": 9
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1506831645965576,
+          "train_positives": 5
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.3211219310760498,
+          "train_positives": 15
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.082554817199707,
+          "train_positives": 47
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.1775015592575073,
+          "train_positives": 20
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.31437984108924866,
+          "train_positives": 0
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.2910971641540527,
+          "train_positives": 14
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.2532641887664795,
+          "train_positives": 9
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.3633028268814087,
+          "train_positives": 0
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.2213134765625,
+          "train_positives": 8
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.2126513719558716,
+          "train_positives": 6
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.7183815240859985,
+          "train_positives": 2
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.6767098307609558,
+          "train_positives": 21
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.3396252393722534,
+          "train_positives": 18
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 1.7695039510726929,
+          "train_positives": 7
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.7497726678848267,
+          "train_positives": 9
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 0.8222532868385315,
+          "train_positives": 6
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.3633334636688232,
+          "train_positives": 11
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 6,
+      "clients": [
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.3508690297603607,
+          "train_positives": 0
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.3197520971298218,
+          "train_positives": 15
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.6826462149620056,
+          "train_positives": 21
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.3466377258300781,
+          "train_positives": 18
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 2.1503682136535645,
+          "train_positives": 7
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1566494703292847,
+          "train_positives": 5
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.213228464126587,
+          "train_positives": 6
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.312298983335495,
+          "train_positives": 0
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.7017431259155273,
+          "train_positives": 2
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.14258873462677,
+          "train_positives": 9
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.6704584360122681,
+          "train_positives": 6
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.2943055629730225,
+          "train_positives": 14
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 0.8646954298019409,
+          "train_positives": 6
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.1116753816604614,
+          "train_positives": 47
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.7398908138275146,
+          "train_positives": 9
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.2800507545471191,
+          "train_positives": 17
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.232742190361023,
+          "train_positives": 8
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2256484031677246,
+          "train_positives": 12
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.2629978656768799,
+          "train_positives": 9
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.3702841997146606,
+          "train_positives": 11
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.175343632698059,
+          "train_positives": 20
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 7,
+      "clients": [
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.2458795309066772,
+          "train_positives": 8
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.1429542303085327,
+          "train_positives": 47
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.30973321199417114,
+          "train_positives": 0
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.3391475975513458,
+          "train_positives": 0
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.297135353088379,
+          "train_positives": 14
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.376436710357666,
+          "train_positives": 11
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 0.9174277186393738,
+          "train_positives": 6
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2319893836975098,
+          "train_positives": 12
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.352867603302002,
+          "train_positives": 18
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.7316559553146362,
+          "train_positives": 9
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.272291898727417,
+          "train_positives": 9
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.173818826675415,
+          "train_positives": 20
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.318969964981079,
+          "train_positives": 15
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 2.5969154834747314,
+          "train_positives": 7
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.2139290571212769,
+          "train_positives": 6
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1615796089172363,
+          "train_positives": 5
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.2863869667053223,
+          "train_positives": 17
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.6892814636230469,
+          "train_positives": 21
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.1384742259979248,
+          "train_positives": 9
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.6865240335464478,
+          "train_positives": 2
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.6803644299507141,
+          "train_positives": 6
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 8,
+      "clients": [
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.21486234664917,
+          "train_positives": 6
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.6727502942085266,
+          "train_positives": 2
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.7242701053619385,
+          "train_positives": 9
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 3.076763153076172,
+          "train_positives": 7
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.6947798132896423,
+          "train_positives": 6
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.3015425205230713,
+          "train_positives": 14
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.3584885597229004,
+          "train_positives": 18
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.307134211063385,
+          "train_positives": 0
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.1726174354553223,
+          "train_positives": 20
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.6947968602180481,
+          "train_positives": 21
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.134791374206543,
+          "train_positives": 9
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.3816595077514648,
+          "train_positives": 11
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2397674322128296,
+          "train_positives": 12
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.2941069602966309,
+          "train_positives": 17
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 0.977490246295929,
+          "train_positives": 6
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.32812589406967163,
+          "train_positives": 0
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.260149598121643,
+          "train_positives": 8
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1656160354614258,
+          "train_positives": 5
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.3184963464736938,
+          "train_positives": 15
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.1743909120559692,
+          "train_positives": 47
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.28080153465271,
+          "train_positives": 9
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 9,
+      "clients": [
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.2065699100494385,
+          "train_positives": 47
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 1.0425456762313843,
+          "train_positives": 6
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.3636294603347778,
+          "train_positives": 18
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.6601297855377197,
+          "train_positives": 2
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.3025721311569214,
+          "train_positives": 17
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.3863667249679565,
+          "train_positives": 11
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.2750272750854492,
+          "train_positives": 8
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.1716121435165405,
+          "train_positives": 20
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.31783291697502136,
+          "train_positives": 0
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1690871715545654,
+          "train_positives": 5
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 3.5688648223876953,
+          "train_positives": 7
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.1314929723739624,
+          "train_positives": 9
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2579054832458496,
+          "train_positives": 12
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.3088144063949585,
+          "train_positives": 14
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.2887917757034302,
+          "train_positives": 9
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.7175149321556091,
+          "train_positives": 9
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.3181766271591187,
+          "train_positives": 15
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.6999425292015076,
+          "train_positives": 21
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.7122328281402588,
+          "train_positives": 6
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.2159353494644165,
+          "train_positives": 6
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.30466219782829285,
+          "train_positives": 0
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 10,
+      "clients": [
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.3154395818710327,
+          "train_positives": 14
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.2396296262741089,
+          "train_positives": 47
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.170785665512085,
+          "train_positives": 20
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.7122896909713745,
+          "train_positives": 9
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.2965890169143677,
+          "train_positives": 9
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.3113232851028442,
+          "train_positives": 17
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.128348708152771,
+          "train_positives": 9
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 1.1110643148422241,
+          "train_positives": 6
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.7325155735015869,
+          "train_positives": 6
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.2169965505599976,
+          "train_positives": 6
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.302153617143631,
+          "train_positives": 0
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1719496250152588,
+          "train_positives": 5
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.3180065155029297,
+          "train_positives": 15
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2575467824935913,
+          "train_positives": 12
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.3906000852584839,
+          "train_positives": 11
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.3081395924091339,
+          "train_positives": 0
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.6478955149650574,
+          "train_positives": 2
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.7055625319480896,
+          "train_positives": 21
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.2911200523376465,
+          "train_positives": 8
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 4.057945251464844,
+          "train_positives": 7
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.3684026002883911,
+          "train_positives": 18
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 11,
+      "clients": [
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2578308582305908,
+          "train_positives": 12
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.2181363105773926,
+          "train_positives": 6
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.3212909698486328,
+          "train_positives": 17
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.372824788093567,
+          "train_positives": 18
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.3945025205612183,
+          "train_positives": 11
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.755359411239624,
+          "train_positives": 6
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.70639967918396,
+          "train_positives": 9
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.6367610096931458,
+          "train_positives": 2
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.2727919816970825,
+          "train_positives": 47
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.3178997039794922,
+          "train_positives": 15
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.170274257659912,
+          "train_positives": 20
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.1254884004592896,
+          "train_positives": 9
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 4.538049221038818,
+          "train_positives": 7
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.3070523738861084,
+          "train_positives": 8
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.2988801598548889,
+          "train_positives": 0
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.7110832929611206,
+          "train_positives": 21
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1745083332061768,
+          "train_positives": 5
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 1.1830002069473267,
+          "train_positives": 6
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.2996416687965393,
+          "train_positives": 0
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.3040173053741455,
+          "train_positives": 9
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.3228157758712769,
+          "train_positives": 14
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 12,
+      "clients": [
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.1229007244110107,
+          "train_positives": 9
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 1.2548404932022095,
+          "train_positives": 6
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 5.004805088043213,
+          "train_positives": 7
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.3322316408157349,
+          "train_positives": 17
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.2902197241783142,
+          "train_positives": 0
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.3301618099212646,
+          "train_positives": 14
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.7166858911514282,
+          "train_positives": 21
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.29732003808021545,
+          "train_positives": 0
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.6266214847564697,
+          "train_positives": 2
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.169767141342163,
+          "train_positives": 20
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2583473920822144,
+          "train_positives": 12
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.3228039741516113,
+          "train_positives": 8
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.7790626883506775,
+          "train_positives": 6
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.3059320449829102,
+          "train_positives": 47
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.317763090133667,
+          "train_positives": 15
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.376746654510498,
+          "train_positives": 18
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.397982120513916,
+          "train_positives": 11
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.219433307647705,
+          "train_positives": 6
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.3107908964157104,
+          "train_positives": 9
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.7011275291442871,
+          "train_positives": 9
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1766034364700317,
+          "train_positives": 5
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 13,
+      "clients": [
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.316941738128662,
+          "train_positives": 9
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.3388233184814453,
+          "train_positives": 47
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.3176190853118896,
+          "train_positives": 15
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.696467399597168,
+          "train_positives": 9
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.3373523950576782,
+          "train_positives": 14
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.3438175916671753,
+          "train_positives": 17
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 1.326052188873291,
+          "train_positives": 6
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.401025414466858,
+          "train_positives": 11
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.722574770450592,
+          "train_positives": 21
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.3802114725112915,
+          "train_positives": 18
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2591732740402222,
+          "train_positives": 12
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.3383060693740845,
+          "train_positives": 8
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.2208234071731567,
+          "train_positives": 6
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.2950816750526428,
+          "train_positives": 0
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 5.455376625061035,
+          "train_positives": 7
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.28204742074012756,
+          "train_positives": 0
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1782891750335693,
+          "train_positives": 5
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.6174185872077942,
+          "train_positives": 2
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.1693042516708374,
+          "train_positives": 20
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.1205217838287354,
+          "train_positives": 9
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.8036126494407654,
+          "train_positives": 6
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 14,
+      "clients": [
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.6921891570091248,
+          "train_positives": 9
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.3224132061004639,
+          "train_positives": 9
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.8285388946533203,
+          "train_positives": 6
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.1687960624694824,
+          "train_positives": 20
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.7284268736839294,
+          "train_positives": 21
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.2743353843688965,
+          "train_positives": 0
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.29292163252830505,
+          "train_positives": 0
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 1.395821213722229,
+          "train_positives": 6
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1795459985733032,
+          "train_positives": 5
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.317455530166626,
+          "train_positives": 15
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.6090580224990845,
+          "train_positives": 2
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.222310185432434,
+          "train_positives": 6
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.3832095861434937,
+          "train_positives": 18
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.118333339691162,
+          "train_positives": 9
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 5.8878889083862305,
+          "train_positives": 7
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.3534232378005981,
+          "train_positives": 8
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.3442891836166382,
+          "train_positives": 14
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2602587938308716,
+          "train_positives": 12
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.3710706233978271,
+          "train_positives": 47
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.4036070108413696,
+          "train_positives": 11
+        },
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.3542274236679077,
+          "train_positives": 17
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    },
+    {
+      "round": 15,
+      "clients": [
+        {
+          "country": "Sudan",
+          "num_examples": 522,
+          "train_loss": 1.3620229959487915,
+          "train_positives": 17
+        },
+        {
+          "country": "Algeria",
+          "num_examples": 2044,
+          "train_loss": 1.4017953872680664,
+          "train_positives": 47
+        },
+        {
+          "country": "Guinea-Bissau",
+          "num_examples": 837,
+          "train_loss": 6.301114559173584,
+          "train_positives": 7
+        },
+        {
+          "country": "Djibouti",
+          "num_examples": 795,
+          "train_loss": 1.1802226305007935,
+          "train_positives": 5
+        },
+        {
+          "country": "Mauritania",
+          "num_examples": 306,
+          "train_loss": 1.2616642713546753,
+          "train_positives": 12
+        },
+        {
+          "country": "Ethiopia",
+          "num_examples": 1381,
+          "train_loss": 1.3679633140563965,
+          "train_positives": 8
+        },
+        {
+          "country": "Mali",
+          "num_examples": 315,
+          "train_loss": 0.6879246830940247,
+          "train_positives": 9
+        },
+        {
+          "country": "Kenya",
+          "num_examples": 13076,
+          "train_loss": 0.6014416217803955,
+          "train_positives": 2
+        },
+        {
+          "country": "Guinea",
+          "num_examples": 267,
+          "train_loss": 1.4630155563354492,
+          "train_positives": 6
+        },
+        {
+          "country": "Egypt",
+          "num_examples": 3137,
+          "train_loss": 1.31719970703125,
+          "train_positives": 15
+        },
+        {
+          "country": "Yemen",
+          "num_examples": 1715,
+          "train_loss": 1.3856500387191772,
+          "train_positives": 18
+        },
+        {
+          "country": "Oman",
+          "num_examples": 1388,
+          "train_loss": 1.3269530534744263,
+          "train_positives": 9
+        },
+        {
+          "country": "Saudi Arabia",
+          "num_examples": 626,
+          "train_loss": 1.4055556058883667,
+          "train_positives": 11
+        },
+        {
+          "country": "Eritrea",
+          "num_examples": 240,
+          "train_loss": 1.2239949703216553,
+          "train_positives": 6
+        },
+        {
+          "country": "The Gambia",
+          "num_examples": 245,
+          "train_loss": 0.8530098795890808,
+          "train_positives": 6
+        },
+        {
+          "country": "Uganda",
+          "num_examples": 5916,
+          "train_loss": 0.26711195707321167,
+          "train_positives": 0
+        },
+        {
+          "country": "Somaliland",
+          "num_examples": 3139,
+          "train_loss": 1.1163358688354492,
+          "train_positives": 9
+        },
+        {
+          "country": "Libya",
+          "num_examples": 2179,
+          "train_loss": 1.167993426322937,
+          "train_positives": 20
+        },
+        {
+          "country": "Chad",
+          "num_examples": 963,
+          "train_loss": 1.3508516550064087,
+          "train_positives": 14
+        },
+        {
+          "country": "Afghanistan",
+          "num_examples": 1740,
+          "train_loss": 0.2909415364265442,
+          "train_positives": 0
+        },
+        {
+          "country": "Tunisia",
+          "num_examples": 847,
+          "train_loss": 0.7330583333969116,
+          "train_positives": 21
+        }
+      ],
+      "n_participating": 21,
+      "n_failures": 0
+    }
+  ],
+  "num_rounds": 15,
+  "local_epochs": 5,
+  "n_clients": 21,
+  "clients": [
+    "Kenya",
+    "Afghanistan",
+    "Uganda",
+    "Algeria",
+    "Tunisia",
+    "Libya",
+    "Yemen",
+    "Sudan",
+    "Egypt",
+    "Chad",
+    "Mauritania",
+    "Saudi Arabia",
+    "Mali",
+    "Oman",
+    "Somaliland",
+    "Ethiopia",
+    "Guinea-Bissau",
+    "Eritrea",
+    "Guinea",
+    "The Gambia",
+    "Djibouti"
+  ]
+}

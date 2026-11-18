@@ -1,0 +1,35 @@
+{
+  "seed": 42,
+  "core_clients": [
+    "Kenya",
+    "Egypt",
+    "Yemen",
+    "Ethiopia",
+    "Sudan",
+    "Mauritania"
+  ],
+  "train_max_year": 2013,
+  "val_max_year": 2017,
+  "feature_sets": {
+    "A_environmental_only": [
+      "PPT_T",
+      "TMAX_T",
+      "SOILMOISTURE_T"
+    ],
+    "B_env_plus_current_presence": [
+      "PPT_T",
+      "TMAX_T",
+      "SOILMOISTURE_T",
+      "LOCUSTPRESENT_T"
+    ],
+    "C_env_plus_current_plus_history": [
+      "PPT_T",
+      "TMAX_T",
+      "SOILMOISTURE_T",
+      "LOCUSTPRESENT_T",
+      "LOCUSTPRESENT_T_minus_1",
+      "LOCUSTPRESENT_T_minus_2"
+    ]
+  },
+  "primary_feature_set": "C_env_plus_current_plus_history"
+}

@@ -1,0 +1,22 @@
+method,country,train_samples,train_positive,test_samples,test_positive,threshold_source,status,threshold,pr_auc,roc_auc,precision,recall,f1
+local_only,Kenya,13076,2,905,36,fallback to global threshold (insufficient local CV positives),computed,0.5,0.03598078861358872,0.4628883774453395,0.020202020202020204,0.05555555555555555,0.02962962962962963
+local_only,Afghanistan,1740,0,141,5,,CANNOT TRAIN -- zero positive examples in this client's training data,,,,,,
+local_only,Uganda,5916,0,425,17,,CANNOT TRAIN -- zero positive examples in this client's training data,,,,,,
+local_only,Algeria,2044,47,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,Tunisia,847,21,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,Libya,2179,20,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,Yemen,1715,18,16,1,local CV,computed,0.1,0.07142857142857142,0.1333333333333333,0.0,0.0,0.0
+local_only,Sudan,522,17,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,Egypt,3137,15,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,Chad,963,14,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,Mauritania,306,12,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,Saudi Arabia,626,11,29,1,fallback to global threshold (insufficient local CV positives),computed,0.5,0.058823529411764705,0.4285714285714286,0.0,0.0,0.0
+local_only,Mali,315,9,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,Oman,1388,9,25,1,local CV,computed,0.1,0.125,0.7083333333333333,0.1111111111111111,1.0,0.2
+local_only,Somaliland,3139,9,93,4,local CV,computed,0.4,0.16566829507857733,0.5365168539325842,0.05555555555555555,0.5,0.1
+local_only,Ethiopia,1381,8,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,Guinea-Bissau,837,7,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,Eritrea,240,6,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,Guinea,267,6,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,The Gambia,245,6,0,0,,"trained, but insufficient test data to evaluate",,,,,,
+local_only,Djibouti,795,5,26,1,local CV,computed,0.1,0.08333333333333333,0.56,0.041666666666666664,1.0,0.08

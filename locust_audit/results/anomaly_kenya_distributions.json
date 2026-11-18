@@ -1,0 +1,10 @@
+{
+  "onset_positive_PPT_anomaly_mean": 37.05686974789916,
+  "onset_negative_PPT_anomaly_mean": 11.940283710513182,
+  "onset_positive_SOILMOISTURE_anomaly_mean": 28.206757703081237,
+  "onset_negative_SOILMOISTURE_anomaly_mean": 4.0638601192124515,
+  "onset_positive_TMAX_anomaly_mean": 0.133226190476191,
+  "onset_negative_TMAX_anomaly_mean": 0.15122403894081962,
+  "onset_positive_PPT_zscore_mean": 1.0808986262802895,
+  "onset_negative_PPT_zscore_mean": 0.3601353354459302
+}

@@ -1,0 +1,73 @@
+{
+  "input": {
+    "country": "Kenya",
+    "region": "Baringo",
+    "features_observed_at": "2018-11",
+    "forecast_for": "2018-12",
+    "raw_feature_values": {
+      "PPT_T": 20.6,
+      "TMAX_T": 29.7,
+      "SOILMOISTURE_T": 8.8,
+      "PPT_anomaly": -39.95757575757576,
+      "TMAX_anomaly": 1.0363636363636353,
+      "SOILMOISTURE_anomaly": 1.706060606060607,
+      "PPT_anomaly_missing": 0.0,
+      "TMAX_anomaly_missing": 0.0,
+      "SOILMOISTURE_anomaly_missing": 0.0
+    }
+  },
+  "prediction": {
+    "score_display": "Predicted onset score: 0.58",
+    "raw_score": 0.5787172913551331,
+    "risk_tier": "MODERATE"
+  },
+  "early_warning": "Moderate likelihood of observed locust-report onset; increased monitoring is recommended.",
+  "why": {
+    "environmental_contributors": [
+      {
+        "feature": "TMAX_anomaly",
+        "shap_value": 0.07400549203157425,
+        "direction": "positive contribution to predicted risk",
+        "magnitude_label": "moderate contribution",
+        "caveat": "contributed to the model prediction, not a claim of scientific/biological causation"
+      },
+      {
+        "feature": "PPT_anomaly",
+        "shap_value": -0.07151197642087936,
+        "direction": "negative contribution to predicted risk",
+        "magnitude_label": "moderate contribution",
+        "caveat": "contributed to the model prediction, not a claim of scientific/biological causation"
+      },
+      {
+        "feature": "PPT_T",
+        "shap_value": 0.043555356562137604,
+        "direction": "positive contribution to predicted risk",
+        "magnitude_label": "moderate contribution",
+        "caveat": "contributed to the model prediction, not a claim of scientific/biological causation"
+      }
+    ],
+    "data_quality_indicators": [],
+    "data_quality_disclaimer": null
+  },
+  "recommendation": "Increase surveillance and monitoring",
+  "data_evidence": {
+    "country": "Kenya",
+    "train_samples": 13076,
+    "train_positive_examples": 2,
+    "val_samples": 1728,
+    "val_positive_examples": 0,
+    "sparse_history_notice": "Limited positive-history evidence."
+  },
+  "limitations": [
+    "Predictions describe observed-report onset (first monitored report), not confirmed biological outbreak onset.",
+    "Negative labels are naive/coarse absence (no report), not confirmed ecological absence; reporting/survey-effort bias is not corrected for.",
+    "The underlying event is rare and severely class-imbalanced; the model was trained with class-weighting to address this, which is why its output is a score, not a calibrated probability (see calibration_assessment.json).",
+    "Several clients (e.g. Uganda, Afghanistan) have zero or very few positive training examples; predictions for these clients rely on federated/pooled signal from other clients, not client-specific history.",
+    "The federated learning system is a research simulation (Flower, single-machine), not a live multi-institution deployment.",
+    "Risk-tier thresholds (LOW/MODERATE/HIGH) are configurable decision-support settings, not biologically validated thresholds."
+  ],
+  "ground_truth_for_reference_only": {
+    "actual_target_t1": 0,
+    "note": "Shown here only to demonstrate this is a real historical test-set row; the decision-support system does not have access to this label at prediction time and it is not part of the dashboard's user-facing output."
+  }
+}
